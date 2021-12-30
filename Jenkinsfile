@@ -9,14 +9,15 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('checkout') {
-            steps {
-                checkout scm
-            }
-        }
         stage('list files') {
             steps {
                 sh 'ls'
+            }
+        }
+        
+        stage('list files') {
+            steps {
+                sh 'python3 my_py.py'
             }
         }
     }
