@@ -3,4 +3,5 @@ asdasd
 asdasd
 121212
 from local
+line #6 from local
 line 6 from remote
