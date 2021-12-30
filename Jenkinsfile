@@ -15,7 +15,7 @@ pipeline {
             }
         }
         
-        stage('list files') {
+        stage('Run my_py') {
             steps {
                 sh 'python3 my_py.py'
             }
